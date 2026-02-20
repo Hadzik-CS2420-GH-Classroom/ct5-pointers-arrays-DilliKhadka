@@ -26,7 +26,7 @@ void pointersAsArrays() {
 
     // TODO: Print ptr[0] to show that a pointer can use [] just like an array
     // Expected output: "Pointer access: ptr[0] = 100"
-    //
+	std::cout << "Pointer access: ptr[1] = " << ptr[1] << '\n';
     // ! DISCUSSION: How can a pointer use [] like an array?
     //   The [] operator is defined for pointers: ptr[i] is just a shorthand
     //   for *(ptr + i). The compiler rewrites it to pointer arithmetic.
