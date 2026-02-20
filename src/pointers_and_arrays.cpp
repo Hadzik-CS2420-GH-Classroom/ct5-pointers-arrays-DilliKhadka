@@ -54,6 +54,8 @@ void pointersAndArrays() {
 
 
     std::ptrdiff_t byteDifference = (char*)&numbers[1] - (char*)&numbers[0];
+	std::cout << "Bytes between elements: " << byteDifference << '\n';
+
 
     //
     // ! DISCUSSION: Why cast to (char*) before subtracting?
@@ -84,7 +86,8 @@ void pointersAndArrays() {
 
     // TODO: Print the value of 'value' by dereferencing 'pValue'
     // Expected output: "Dereferenced value: 42"
-
+	std::cout << "Dereferenced value: " << *pValue << '\n';
+	
     // TODO: Change 'value' through the pointer by assigning 99 to *pValue
     //
     // ! DISCUSSION: How does *pValue = 99 change 'value'?
